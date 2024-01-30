@@ -4,17 +4,29 @@
  */
 package arraydemow24tue;
 
+
 /**
  *
- * @author Ronak
+ * This has been modified by ronak on 23 jan at 12:47pm
+ * This is another comment added on 12:52
+ * 
  */
 public class Student {
     private int sid;
     private String sname;
+    private  String Address;
 
     public Student(int sid, String sname) {
         this.sid = sid;
         this.sname = sname;
+    }
+
+    public String getAddress() {
+        return Address;
+    }
+
+    public void setAddress(String Address) {
+        this.Address = Address;
     }
 
     
